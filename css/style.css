@@ -1,0 +1,182 @@
+
+*{
+  margin: 0px ;
+  padding: 0px;
+  text-decoration:none;	
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  
+  width:100%;
+  	
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-size:16px ;	
+}
+
+.Wrapper{
+ margin: 0px auto;
+ padding: 0px 15px;
+ max-width:1020px;
+ width:100%;	
+}
+.banner-inner{
+position:relative;
+	
+}
+
+.banner-inner img{
+ display:block;
+  width:100%;	
+}
+
+.banner-info {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	 gap:10px;
+}
+
+.banner-info h4{
+	font-size:20px;
+	color:#e9bd78;	
+}
+
+.banner-info h2{
+	
+	color:white;
+	font-size:60px;
+	font-weight:200;
+	margin:5px 0px;
+	
+}
+.banner-info p{
+	color:white;
+	font-size:12px
+}
+
+.banner-info a{
+
+    background-color:white;
+	margin-left:25px;
+    padding:7px 8px;	
+    border:none;
+	width:120px;
+	text-align:center;
+	margin-top:40px;
+}
+
+.contact-inner{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#fccd3d;
+	padding:35px
+}
+
+.req-btn{
+  color:white;	
+   background-color:black;
+   padding: 8px 15px;
+   margin-right:10px;
+ 	text-align:center;
+}
+.contact-info{
+  width:50%;		
+}
+
+.contact-link{
+	 width:50%;
+	 text-align:center;
+	 margin:0 auto;
+	
+}
+
+.contact-info h4{
+	font-size:14px;
+	font-weight:200;
+	
+}
+
+.contact-info h2{
+	font-size:30px;
+	margin-top:10px;
+	font-weight:200;
+}
+
+
+.btn-contact{
+ border:2px solid black;
+ padding:8px 15px;
+ text-align:center;	
+	
+	
+}
+
+.card-inner{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+flex-wrap:wrap;
+margin-top:10px;
+}
+
+
+.card-details{
+	width:33.33%;
+}
+.card-details img{
+	
+  width:100%;
+  display:block
+}
+
+.card-details-inner{
+	padding:10px	
+}
+
+.card-details-info{
+margin-top:10px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+ gap:5px;	
+ padding:10px;
+	
+}
+.card-details-info a{
+	color:#ffe387;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
